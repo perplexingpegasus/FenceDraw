@@ -1,0 +1,129 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.useBorder {
+    border-style: solid;
+    border-width: 1pt;
+}
+
+.limitOverflow {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.topBox {
+    display: flex;
+    padding: 10pt 0;
+}
+
+.userInfoContainer {
+    width: 420pt;
+}
+
+.topButtonContainer {
+    text-align: right;
+    float: right;
+    margin: auto 10pt auto auto;
+    display: block;
+}
+
+.message {
+    padding: 10pt;
+    margin: 0;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    color: #576475;
+}
+
+
+/* title */
+
+
+.title28 {
+    font-family: "OCR-A BT";
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 0;
+    padding: 10pt;
+    white-space: pre;
+}
+
+.title24 {
+    font-family: "OCR-A BT";
+    font-size: 24pt;
+    font-weight: bold;
+    margin: 0;
+    padding: 10pt;
+    white-space: pre;
+}
+
+.title18 {
+    font-family: "OCR-A BT";
+    font-size: 18pt;
+    margin: 0;
+    padding: 8pt 10pt;
+}
+
+
+/* buttons */
+
+
+button {
+    padding: 8pt;
+    margin: 8pt;
+    min-width: 80pt;
+    font-size: 14pt;
+    cursor: pointer;
+    border: none;
+}
+
+.buttonBlack, .buttonGrey:hover {
+    background-color: #02050a;
+    color: white;
+    border: none;
+    padding: 8pt;
+}
+
+.buttonGrey, .buttonWhite:hover, select {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 8pt;
+}
+
+.buttonWhite, .buttonBlack:hover {
+    background-color: snow;
+    color: black;
+    border-style: solid;
+    border-width: 1pt;
+    padding: 7pt;
+}
+
+select {
+    font-size: 14pt;
+    font-weight: normal;
+    padding: 8pt;
+    margin: 8pt;
+}
+
+.selectLabel {
+    display: inline-block;
+    font-size: 14pt;
+    margin-left: 10pt;
+}
+
+button:focus, input:focus, select:focus {
+    outline:none;
+}
+
+.confirmDeleteContainer {
+    display: inline-block;
+}

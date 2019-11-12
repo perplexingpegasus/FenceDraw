@@ -1,0 +1,18 @@
+.userLoginContainer {
+    margin: auto;
+    margin-top: 100pt;
+    width: 400pt;
+    text-align: center;
+    padding: 20pt;
+}
+
+.userLoginSection {
+    width: 70%;
+    margin: 30pt auto 10pt auto;
+}
+
+.userLoginTextInput {
+    font-size: 18pt;
+    text-align: center;
+    width: 100%;
+}

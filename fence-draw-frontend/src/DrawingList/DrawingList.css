@@ -1,0 +1,60 @@
+.drawingListContent {
+    width: 700pt;
+    margin: 20pt auto;
+}
+
+.createDrawingContainer {
+    padding: 20pt 20pt 0 20pt;
+    display: flex;
+}
+
+.createDrawingTextInput {
+    text-align: center;
+    font-size: 14pt;
+    height: 40pt;
+    width: 320pt;
+    margin: 20pt 0 20pt 20pt;
+}
+
+.createDrawingButtons {
+    margin: auto 0 auto auto;
+}
+
+.drawings {
+    padding: 20pt
+}
+
+.drawingListItemContainer {
+    display: flex;
+    padding: 1pt;
+}
+
+.drawingListItemContainer:hover {
+    background-color: #f6f6f6;
+    border-style: solid;
+    border-width: 1pt;
+    padding: 0;
+}
+
+.drawingLabel {
+    font-size: 16pt;
+    font-weight: bold;
+    margin: auto 20pt;
+    max-width: 400pt;
+}
+
+.confirmText {
+    display: inline;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.topButtonContainer {
+    display: flex;
+}
+
+.editDeleteButtonContainer {
+    display: flex;
+    margin-left: auto;
+    float: right;
+}
